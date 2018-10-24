@@ -18,7 +18,7 @@
     <input type="text" id="desc" placeholder="Notification description" />
     <input type="number" id="durr" placeholder="Notification durration (miliseconds)" />
 
-    <button onclick="notifyUser($('#title').val(), $('#desc').val(), $('#durr').val());">Test notification</button>
+    <button onclick="notifyUser($('#title').val(), $('#desc').val(), Number($('#durr').val()));">Test notification</button>
 
   </body>
 
