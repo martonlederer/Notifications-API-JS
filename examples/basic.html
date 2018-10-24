@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+
+  <head>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="../src/notifications.js"></script>
+
+    <link rel="stylesheet" href="../src/notifications.css" />
+
+  </head>
+
+  <body>
+
+    <input type="text" id="title" placeholder="Notification title" />
+    <input type="text" id="desc" placeholder="Notification description" />
+    <input type="number" id="durr" placeholder="Notification durration (miliseconds)" />
+
+    <button onclick="notifyUser($('#title').val(), $('#desc').val(), $('#durr').val());">Test notification</button>
+
+  </body>
+
+</html>
